@@ -18,97 +18,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.google.android.gms">
 
-    <permission
-        android:name="com.google.android.c2dm.permission.RECEIVE"
-        android:label="@string/perm_c2dm_receive_label"
-        android:permissionGroup="android.permission-group.NETWORK"
-        android:protectionLevel="normal" />
-    <permission
-        android:name="com.google.android.c2dm.permission.SEND"
-        android:label="@string/perm_c2dm_send_label"
-        android:permissionGroup="android.permission-group.NETWORK"
-        android:protectionLevel="privileged|signature" />
-    <permission
-        android:name="com.google.android.gtalkservice.permission.GTALK_SERVICE"
-        android:label="@string/perm_gtalk_svc_label"
-        android:permissionGroup="android.permission-group.MESSAGES"
-        android:protectionLevel="signature" />
-
-    <permission-tree
-        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"
-        android:icon="@drawable/proprietary_auth_ic_scope_icon_default" />
-
-    <permission
-        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.cp"
-        android:description="@string/permission_service_cp_description"
-        android:label="@string/permission_service_cp_label"
-        android:protectionLevel="dangerous" />
-    <permission
-        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.local"
-        android:description="@string/permission_service_local_description"
-        android:label="@string/permission_service_local_label"
-        android:protectionLevel="dangerous" />
-    <permission
-        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"
-        android:description="@string/permission_service_mail_description"
-        android:label="@string/permission_service_mail_label"
-        android:protectionLevel="dangerous" />
-    <permission
-        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.writely"
-        android:description="@string/permission_service_writely_description"
-        android:label="@string/permission_service_writely_label"
-        android:protectionLevel="dangerous" />
-
-    <permission
-        android:name="org.microg.gms.STATUS_BROADCAST"
-        android:label="@string/perm_status_broadcast_label"
-        android:protectionLevel="normal" />
-    <permission
-        android:name="org.microg.gms.EXTENDED_ACCESS"
-        android:label="@string/perm_extended_access_label"
-        android:protectionLevel="dangerous" />
-    <permission
-        android:name="org.microg.gms.PROVISION"
-        android:description="@string/perm_provision_description"
-        android:label="@string/perm_provision_label"
-        android:protectionLevel="privileged|signature" />
-
-    <uses-permission android:name="android.permission.FAKE_PACKAGE_SIGNATURE" />
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
-    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
-    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
-    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="com.google.android.c2dm.permission.SEND" />
-    <uses-permission android:name="com.google.android.gtalkservice.permission.GTALK_SERVICE" />
-
-    <uses-permission android:name="org.microg.gms.STATUS_BROADCAST" />
-
-    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission
-        android:name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"
-        tools:ignore="ProtectedPermissions" />
-    <uses-permission
-        android:name="android.permission.UPDATE_APP_OPS_STATS"
-        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -120,10 +34,6 @@
         android:theme="@style/Theme.AppCompat.DayNight">
 
         <library android:name="com.google.android.gms" />
-
-        <meta-data
-            android:name="fake-signature"
-            android:value="@string/fake_signature" />
 
         <!-- Location -->
 
