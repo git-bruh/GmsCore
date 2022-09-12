@@ -10,8 +10,6 @@ apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
 dependencies {
-    api project(':play-services-base')
-
     // AndroidX UI
     implementation "androidx.multidex:multidex:$multidexVersion"
     implementation "androidx.appcompat:appcompat:$appcompatVersion"

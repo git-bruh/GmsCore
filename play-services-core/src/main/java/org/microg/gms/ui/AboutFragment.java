@@ -29,11 +29,7 @@ public class AboutFragment extends AbstractAboutFragment {
 
     @Override
     protected void collectLibraries(List<AbstractAboutFragment.Library> libraries) {
-        if (BuildConfig.FLAVOR.toLowerCase().contains("mapbox")) {
-            libraries.add(new AbstractAboutFragment.Library("com.mapbox.mapboxsdk", "Mapbox Maps SDK for Android", "Three-Clause BSD, Mapbox"));
-        } else {
-            libraries.add(new AbstractAboutFragment.Library("org.oscim.android", "V™", "GNU LGPLv3, Hannes Janetzek and devemux86"));
-        }
+        libraries.add(new AbstractAboutFragment.Library("org.oscim.android", "V™", "GNU LGPLv3, Hannes Janetzek and devemux86"));
         libraries.add(new AbstractAboutFragment.Library("de.hdodenhof.circleimageview", "CircleImageView", "Apache License 2.0, Henning Dodenhof"));
         libraries.add(new AbstractAboutFragment.Library("su.litvak.chromecast.api.v2", "ChromeCast Java API v2", "Apache License 2.0, Vitaly Litvak"));
         libraries.add(new AbstractAboutFragment.Library("org.conscrypt", "Conscrypt", "Apache License 2.0, The Android Open Source Project"));
