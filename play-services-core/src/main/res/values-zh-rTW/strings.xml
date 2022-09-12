@@ -15,8 +15,8 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services Core</string>
-    <string name="gms_settings_name">microG設定</string>
+    <string name="gms_app_name">UnifiedNlp Services Core</string>
+    <string name="gms_settings_name">UnifiedNlp設定</string>
 
     <string name="just_a_sec">請稍等...</string>
     <string name="google_account_label">Google</string>
@@ -58,7 +58,7 @@
     <string name="place_picker_nearby_places">附近的地點</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">microG Services Core: 缺少<xliff:g example="have full network acccess">%1$s</xliff:g>的權限</string>
+    <string name="lacking_permission_toast">UnifiedNlp Services Core: 缺少<xliff:g example="have full network acccess">%1$s</xliff:g>的權限</string>
 
     <string name="network_type_mobile">行動數據</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -72,7 +72,7 @@
     <string name="self_check_cat_system">系統</string>
 
     <string name="self_check_name_fake_sig_perm">系統支援簽名破解： </string>
-    <string name="self_check_resolution_fake_sig_perm">您的原生韌體並不支援簽名破解，但您依舊能用Xposed或是改用其他系統來破解。 請參閱哪些韌體支援簽名破解以及如何在不支援的韌體使用microG的說明文件。</string>
+    <string name="self_check_resolution_fake_sig_perm">您的原生韌體並不支援簽名破解，但您依舊能用Xposed或是改用其他系統來破解。 請參閱哪些韌體支援簽名破解以及如何在不支援的韌體使用UnifiedNlp的說明文件。</string>
     <string name="self_check_name_perm_granted">系統允許簽名破解的權限： </string>
     <string name="self_check_resolution_perm_granted">這是韌體支援簽名破解的強力指標，但是仍需要後續動作來啟動破解。 請參閱必須完成步驟的說明文件。</string>
     <string name="self_check_name_system_spoofs">系統破解簽名： </string>
@@ -99,7 +99,7 @@
     <string name="prefcat_test">測試</string>
 
     <string name="cond_gcm_bat_title">已開啟電池優化</string>
-    <string name="cond_gcm_bat_summary">您已啟用GCM但依舊套用了電池優化在microG Services Core上。 為了能收到推送通知您應該取消電池優化。</string>
+    <string name="cond_gcm_bat_summary">您已啟用GCM但依舊套用了電池優化在UnifiedNlp Services Core上。 為了能收到推送通知您應該取消電池優化。</string>
     <string name="cond_gcm_bat_action">取消優化</string>
     <string name="cond_perm_title">遺失權限</string>
 
@@ -110,7 +110,7 @@
     <string name="pref_auth_trust_google_title">允許Google提供程式存取權限</string>
     <string name="pref_auth_trust_google_summary">此功能停用時，使用者將在程式向Google請求驗證前被徵詢。 有些程式可能會因為此功能停用而無法存取Google帳號。</string>
 
-    <string name="pref_checkin_enable_summary">將手機註冊到Google服務並創建一個唯一的設備識別碼。 除了識別碼，microG還會使用您註冊的Google帳號名。</string>
+    <string name="pref_checkin_enable_summary">將手機註冊到Google服務並創建一個唯一的設備識別碼。 除了識別碼，UnifiedNlp還會使用您註冊的Google帳號名。</string>
 
     <string name="pref_gcm_enable_mcs_summary">GCM是一個廣為第三方應用程式所採用的推播訊息供應者。 必須先註冊為Google設備才能使用。</string>
     <string name="pref_gcm_heartbeat_title">GCM同步週期</string>
@@ -118,7 +118,7 @@
 已不重要，將會在未來的版本中被取代。</string>
     <string name="pref_gcm_apps_title">使用GCM的程式</string>
     <string name="pref_gcm_apps_summary">表所列為現在註冊使用GCM的程式。</string>
-    <string name="pref_about_title">關於microG Services Core</string>
+    <string name="pref_about_title">關於UnifiedNlp Services Core</string>
     <string name="pref_about_summary">版本資訊和使用的程式庫</string>
 
     <string name="gcm_app_error_unregistering">註冊錯誤</string>
@@ -138,7 +138,7 @@
 
     <string name="snet_intro">Google SafetyNet是一個確認手機被確實保護和相容於Android CTS的驗證系統。一些程式基於安全因素使用SafetyNet，一些則是以必須通過的形式來防止篡改。
     	
-    	microG GmsCore包含了SafetyNet的自由執行，但官方伺服器需要SafetyNet請求經非自由軟體性質的DroidGuard系統簽名。</string>
+    	UnifiedNlp GmsCore包含了SafetyNet的自由執行，但官方伺服器需要SafetyNet請求經非自由軟體性質的DroidGuard系統簽名。</string>
 
     <string name="pref_safetynet_test_title">測試SafetyNet驗證</string>
 </resources>

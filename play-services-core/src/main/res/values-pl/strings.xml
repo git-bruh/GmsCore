@@ -15,12 +15,12 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">Usługi microG</string>
-    <string name="gms_settings_name">Ustawienia microG</string>
+    <string name="gms_app_name">Usługi UnifiedNlp</string>
+    <string name="gms_settings_name">Ustawienia UnifiedNlp</string>
 
     <string name="just_a_sec">Chwileczkę…</string>
     <string name="google_account_label">Google</string>
-    <string name="ask_permission_tos">Kontynuując, zgadzasz się na wykorzystywanie swoich danych przez Google oraz usługi microG zgodnie z warunkami korzystania oraz polityką prywatności Google.</string>
+    <string name="ask_permission_tos">Kontynuując, zgadzasz się na wykorzystywanie swoich danych przez Google oraz usługi UnifiedNlp zgodnie z warunkami korzystania oraz polityką prywatności Google.</string>
     <string name="ask_scope_permission_title"><xliff:g example="F-Droid">%1$s</xliff:g> chce:</string>
     <string name="ask_service_permission_title"><xliff:g example="F-Droid">%1$s</xliff:g> chce wykorzystać:</string>
     <string name="account_manager_title">Zarządzanie kontem Google</string>
@@ -64,7 +64,7 @@ To zajmie kilka minut.</string>
     <string name="place_picker_nearby_places">Pobliskie miejsca</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">rdzeń usług microG: brakuje pozwolenia na <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">rdzeń usług UnifiedNlp: brakuje pozwolenia na <xliff:g example="have full network acccess">%1$s</xliff:g></string>
 
     <string name="network_type_mobile">Sieć komórkowa</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -78,7 +78,7 @@ To zajmie kilka minut.</string>
     <string name="self_check_cat_system">System</string>
 
     <string name="self_check_name_fake_sig_perm">System wspiera imitowanie sygnatur:</string>
-    <string name="self_check_resolution_fake_sig_perm">Twój ROM nie posiada wbudowanego wsparcia dla imitacji sygnatur. Możesz jednak nadal spróbować użyć modułu Xposed (FakeGApps) lub innych systemów aby imitować sygnatury. Przejrzyj dokumentację dot. ROM-ów wspierających imitowanie sygnatur i sprawdź jak korzystać z usług microG na systemach tego nie wspierających.</string>
+    <string name="self_check_resolution_fake_sig_perm">Twój ROM nie posiada wbudowanego wsparcia dla imitacji sygnatur. Możesz jednak nadal spróbować użyć modułu Xposed (FakeGApps) lub innych systemów aby imitować sygnatury. Przejrzyj dokumentację dot. ROM-ów wspierających imitowanie sygnatur i sprawdź jak korzystać z usług UnifiedNlp na systemach tego nie wspierających.</string>
     <string name="self_check_name_perm_granted">System udziela pozwolenia na imitację sygnatur:</string>
     <string name="self_check_resolution_perm_granted">Możliwe, że Twój ROM wspiera imitowanie sygnatur, ale wymagane są dalsze działania, aby to włączyć. Przejrzyj dokumentacje, aby sprawdzić dalsze instrukcje.</string>
     <string name="self_check_name_system_spoofs">System imituje sygnatury:</string>
@@ -106,7 +106,7 @@ To zajmie kilka minut.</string>
     <string name="prefcat_test">Test</string>
 
     <string name="cond_gcm_bat_title">Optymalizacja baterii włączona</string>
-    <string name="cond_gcm_bat_summary">Aktywowałeś usługę Cloud Messaging, ale optymalizacja baterii dla usługi microG jest włączona. Aby powiadomienia ‘push’ działały, powinieneś wyłączyć optymalizację baterii dla microG.</string>
+    <string name="cond_gcm_bat_summary">Aktywowałeś usługę Cloud Messaging, ale optymalizacja baterii dla usługi UnifiedNlp jest włączona. Aby powiadomienia ‘push’ działały, powinieneś wyłączyć optymalizację baterii dla UnifiedNlp.</string>
     <string name="cond_gcm_bat_action">Ignoruj optymalizacje</string>
     <string name="cond_perm_title">Brakuje uprawnień</string>
 
@@ -117,7 +117,7 @@ To zajmie kilka minut.</string>
     <string name="pref_auth_trust_google_title">Zaufaj uprawnieniom aplikacji Google</string>
     <string name="pref_auth_trust_google_summary">Po wyłączeniu, do użytkownika kierowane jest pytanie przed wysyłaniem prośby o autoryzację do Google. Niektóre aplikacje nie będą mogły skorzystać z konta Google po wyłączeniu tej opcji.</string>
 
-    <string name="pref_checkin_enable_summary">Zgłaszanie urządzenia to ukryty proces, służący do wygenerowania unikalnego identyfikatora dla usług Google. Usługi microG usuwają inne dane identyfikacyjne niż nazwa Twojego konta z tego identyfikatora.</string>
+    <string name="pref_checkin_enable_summary">Zgłaszanie urządzenia to ukryty proces, służący do wygenerowania unikalnego identyfikatora dla usług Google. Usługi UnifiedNlp usuwają inne dane identyfikacyjne niż nazwa Twojego konta z tego identyfikatora.</string>
 
     <string name="pref_more_settings">Więcej</string>
 
@@ -130,7 +130,7 @@ To zajmie kilka minut.</string>
     <string name="pref_gcm_confirm_new_apps_summary">Zapytaj przed zarejestrowaniem nowej aplikacji w usłudze powiadomień ‘push’</string>
     <string name="pref_gcm_ping_interval">Częstotliwość sprawdzania: <xliff:g example="10 minutes">%1$s</xliff:g></string>
 
-    <string name="pref_about_title">O usłudze microG</string>
+    <string name="pref_about_title">O usłudze UnifiedNlp</string>
     <string name="pref_about_summary">Informacje o wersji, użyte licencje i biblioteki</string>
 
     <string name="gcm_app_error_unregistering">Błąd wyrejestrowania</string>
@@ -146,7 +146,7 @@ To zajmie kilka minut.</string>
     <string name="gcm_unregister_after_deny_message">Odmówiłeś już zarejestrowanej aplikacji zarejestrować się w usłudze powiadomień ‘push’.\nCzy chcesz ją wyrejestrować, aby nie otrzymywała powiadomień ‘push’ w przyszłości?</string>
     <string name="gcm_messages_counter">Wiadomości: <xliff:g example="123">%1$d</xliff:g> (<xliff:g example="12345">%2$d</xliff:g> bajtów)</string>
 
-    <string name="snet_intro">Google SafetyNet jest systemem certyfikacji urządzenia, który upewnia się czy urządzenie jest poprawnie zabezpieczone i kompatybilne z Android CTS. Niektóre aplikacje używają SafetyNet ze względów bezpieczeństwa lub jako przeciwśrodek do modyfikacji.\n\nUsługa microG GmsCore zawiera wolną implementację SafetyNet, ale oficjalny serwer wymaga by SafetyNet był podpisany przez własnościowy system DroidGuard.</string>
+    <string name="snet_intro">Google SafetyNet jest systemem certyfikacji urządzenia, który upewnia się czy urządzenie jest poprawnie zabezpieczone i kompatybilne z Android CTS. Niektóre aplikacje używają SafetyNet ze względów bezpieczeństwa lub jako przeciwśrodek do modyfikacji.\n\nUsługa UnifiedNlp GmsCore zawiera wolną implementację SafetyNet, ale oficjalny serwer wymaga by SafetyNet był podpisany przez własnościowy system DroidGuard.</string>
 
     <string name="pref_safetynet_test_title">Wypróbuj działanie SafetyNet</string>
     <string name="pref_droidguard_operation_mode">Tryb działania</string>

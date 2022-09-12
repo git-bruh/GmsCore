@@ -15,9 +15,9 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services Core</string>
-    <string name="gms_settings_name">Impostazioni di microG</string>
-    <string name="gms_settings_summary">Configurazione di microG</string>
+    <string name="gms_app_name">UnifiedNlp Services Core</string>
+    <string name="gms_settings_name">Impostazioni di UnifiedNlp</string>
+    <string name="gms_settings_summary">Configurazione di UnifiedNlp</string>
 
     <string name="just_a_sec">Giusto un secondo…</string>
     <string name="google_account_label">Google</string>
@@ -44,8 +44,8 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="perm_c2dm_send_label">invio di messaggi C2DM ad altre applicazioni</string>
     <string name="perm_gtalk_svc_label">scambio di messaggi e ricezione di notifiche di sincronizzazione dai server Google</string>
     <string name="perm_extended_access_label">accesso esteso ai servizi Google</string>
-    <string name="perm_provision_label">configurazione dei servizi microG</string>
-    <string name="perm_provision_description">Permette all\'applicazione di configurare i servizi microG senza l\'interazione dell\'utente</string>
+    <string name="perm_provision_label">configurazione dei servizi UnifiedNlp</string>
+    <string name="perm_provision_description">Permette all\'applicazione di configurare i servizi UnifiedNlp senza l\'interazione dell\'utente</string>
 
     <string name="service_name_checkin">Registrazione del dispositivo</string>
     <string name="service_name_mcs">Messaggistica cloud</string>
@@ -68,7 +68,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="place_picker_nearby_places">Luoghi vicini</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">microG: Il permesso di <xliff:g example="have full network acccess">%1$s</xliff:g> non è stato concesso</string>
+    <string name="lacking_permission_toast">UnifiedNlp: Il permesso di <xliff:g example="have full network acccess">%1$s</xliff:g> non è stato concesso</string>
 
     <string name="network_type_mobile">Reti mobili</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -82,7 +82,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="self_check_cat_system">Sistema</string>
 
     <string name="self_check_name_fake_sig_perm">Il sistema supporta la falsificazione della firma: </string>
-    <string name="self_check_resolution_fake_sig_perm">La tua ROM non dispone del supporto nativo per la falsificazione della firma. Puoi comunque utilizzare Xposed o altri sistemi per garantire la falsificazione della firma. Consulta la documentazione per conoscere quali ROM supportano questa funzionalità e come utilizzare microG sulle ROM che non la supportano.</string>
+    <string name="self_check_resolution_fake_sig_perm">La tua ROM non dispone del supporto nativo per la falsificazione della firma. Puoi comunque utilizzare Xposed o altri sistemi per garantire la falsificazione della firma. Consulta la documentazione per conoscere quali ROM supportano questa funzionalità e come utilizzare UnifiedNlp sulle ROM che non la supportano.</string>
     <string name="self_check_name_perm_granted">Il sistema concede l\'autorizzazione a falsificare la firma: </string>
     <string name="self_check_resolution_perm_granted">Ciò indica che la ROM attuale supporta la falsificazione della firma, ma richiede azioni ulteriori per attivarla. Consulta la documentazione per conoscere quali operazioni siano necessarie.</string>
     <string name="self_check_name_system_spoofs">Il sistema falsifica la firma: </string>
@@ -110,7 +110,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="prefcat_test">Sperimentale</string>
 
     <string name="cond_gcm_bat_title">Ottimizzazioni della batteria abilitate</string>
-    <string name="cond_gcm_bat_summary">Hai abilitato il servizio di messaggistica cloud, tuttavia le ottimizzazioni della batteria sono abilitate per microG. Al fine di garantire la ricezione delle notifiche push, dovresti selezionare l\'opzione per ignorare le ottimizzazioni della batteria.</string>
+    <string name="cond_gcm_bat_summary">Hai abilitato il servizio di messaggistica cloud, tuttavia le ottimizzazioni della batteria sono abilitate per UnifiedNlp. Al fine di garantire la ricezione delle notifiche push, dovresti selezionare l\'opzione per ignorare le ottimizzazioni della batteria.</string>
     <string name="cond_gcm_bat_action">Ignora ottimizzazioni</string>
     <string name="cond_perm_title">Permesso mancante</string>
 
@@ -123,7 +123,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="pref_auth_visible_title">Consenti alle applicazioni di visualizzare gli account</string>
     <string name="pref_auth_visible_summary">Quando questa opzione è abilitata, tutte le applicazioni su questo dispositivo saranno in grado di visualizzare gli indirizzi di posta elettronica degli account Google senza autorizzazione preventiva.</string>
 
-    <string name="pref_checkin_enable_summary">Registra il tuo dispositivo ai servizi Google e crea un identificativo univoco. Vengono rimossi da microG alcuni bit funzionali all\'identificazione dai dati di registrazione, oltre al nome dell\'account Google.</string>
+    <string name="pref_checkin_enable_summary">Registra il tuo dispositivo ai servizi Google e crea un identificativo univoco. Vengono rimossi da UnifiedNlp alcuni bit funzionali all\'identificazione dai dati di registrazione, oltre al nome dell\'account Google.</string>
     <string name="pref_device_registration_android_id">Identificativo univoco Android</string>
 
     <string name="checkin_not_registered">Non registrato</string>
@@ -144,7 +144,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="pref_gcm_confirm_new_apps_summary">Chiedi conferma all\'utente prima di registrare una nuova applicazione per le notifiche push.</string>
     <string name="pref_gcm_ping_interval">Intervallo di ping: <xliff:g example="10 minutes">%1$s</xliff:g></string>
 
-    <string name="pref_about_title">A proposito di microG</string>
+    <string name="pref_about_title">A proposito di UnifiedNlp</string>
     <string name="pref_about_summary">Informazioni sulla versione e sulle librerie utilizzate</string>
 
     <string name="gcm_app_error_unregistering">Errore durante l\'annullamento della registrazione</string>
@@ -173,7 +173,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="prefcat_push_apps_unregistered_title">Applicazioni non registrate</string>
     <string name="prefcat_push_networks_title">Reti da utilizzare per le notifiche push</string>
 
-    <string name="snet_intro">SafetyNet di Google è un sistema di certificazione del dispositivo che ne garantisce la sicurezza e la compatibilità con Android CTS. Alcune applicazioni utilizzano SafetyNet per ragioni di sicurezza o come prerequisito per la protezione da manomissione.\n\nUn\'implementazione libera di SafetyNet è contenuta in microG, tuttavia i server ufficiali richiedono che le richieste SafetyNet siano firmate utilizzando il sistema proprietario DroidGuard.</string>
+    <string name="snet_intro">SafetyNet di Google è un sistema di certificazione del dispositivo che ne garantisce la sicurezza e la compatibilità con Android CTS. Alcune applicazioni utilizzano SafetyNet per ragioni di sicurezza o come prerequisito per la protezione da manomissione.\n\nUn\'implementazione libera di SafetyNet è contenuta in UnifiedNlp, tuttavia i server ufficiali richiedono che le richieste SafetyNet siano firmate utilizzando il sistema proprietario DroidGuard.</string>
     <string name="snet_enable_switch">Permetti l\'attestazione del dispositivo</string>
 
     <string name="pref_safetynet_test_title">Prova l\'attestazione di SafetyNet</string>

@@ -4,9 +4,9 @@
   ~ SPDX-License-Identifier: Apache-2.0
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services Core</string>
-    <string name="gms_settings_name">microG Settings</string>
-    <string name="gms_settings_summary">Setup microG services Core.</string>
+    <string name="gms_app_name">UnifiedNlp Services Core</string>
+    <string name="gms_settings_name">UnifiedNlp Settings</string>
+    <string name="gms_settings_summary">Setup UnifiedNlp services Core.</string>
 
     <string name="just_a_sec">Just a sec…</string>
     <string name="google_account_label">Google</string>
@@ -41,8 +41,8 @@ This can take a couple of minutes."</string>
     <string name="perm_c2dm_send_label">send C2DM messages to other apps</string>
     <string name="perm_gtalk_svc_label">exchange messages and receive sync notifications from Google servers</string>
     <string name="perm_extended_access_label">Extended access to Google services</string>
-    <string name="perm_provision_label">provision microG services</string>
-    <string name="perm_provision_description">Allows the app to configure microG services without user interaction</string>
+    <string name="perm_provision_label">provision UnifiedNlp services</string>
+    <string name="perm_provision_description">Allows the app to configure UnifiedNlp services without user interaction</string>
 
     <string name="service_name_checkin">Google device registration</string>
     <string name="service_name_mcs">Cloud Messaging</string>
@@ -65,7 +65,7 @@ This can take a couple of minutes."</string>
     <string name="place_picker_nearby_places">Nearby places</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">microG Services Core: Lacking permission to <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">UnifiedNlp Services Core: Lacking permission to <xliff:g example="have full network acccess">%1$s</xliff:g></string>
 
     <string name="network_type_mobile">Mobile network</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -79,7 +79,7 @@ This can take a couple of minutes."</string>
     <string name="self_check_cat_system">System</string>
 
     <string name="self_check_name_fake_sig_perm">System has signature spoofing support: </string>
-    <string name="self_check_resolution_fake_sig_perm">Your ROM has no native support for signature spoofing. You can still use Xposed or other systems to spoof signature. Please check the documentation on which ROMs do support signature spoofing and how to use microG on ROMs that do not.</string>
+    <string name="self_check_resolution_fake_sig_perm">Your ROM has no native support for signature spoofing. You can still use Xposed or other systems to spoof signature. Please check the documentation on which ROMs do support signature spoofing and how to use UnifiedNlp on ROMs that do not.</string>
     <string name="self_check_name_perm_granted">System grants signature spoofing permission: </string>
     <string name="self_check_resolution_perm_granted">This is a strong indicator that the ROM does support signature spoofing, but requires further action to activate it. Please check the documentation on which steps might be required.</string>
     <string name="self_check_name_system_spoofs">System spoofs signature: </string>
@@ -107,7 +107,7 @@ This can take a couple of minutes."</string>
     <string name="prefcat_test">Test</string>
 
     <string name="cond_gcm_bat_title">Battery optimizations enabled</string>
-    <string name="cond_gcm_bat_summary">You enabled Cloud Messaging but have battery optimizations active for microG Services Core. For push notifications to arrive you should ignore battery optimizations.</string>
+    <string name="cond_gcm_bat_summary">You enabled Cloud Messaging but have battery optimizations active for UnifiedNlp Services Core. For push notifications to arrive you should ignore battery optimizations.</string>
     <string name="cond_gcm_bat_action">Ignore optimizations</string>
     <string name="cond_perm_title">Permission missing</string>
 
@@ -120,7 +120,7 @@ This can take a couple of minutes."</string>
     <string name="pref_auth_visible_title">Allow apps to find accounts</string>
     <string name="pref_auth_visible_summary">When enabled, all applications on this device will be able to see email address of your Google Accounts without prior authorization.</string>
 
-    <string name="pref_checkin_enable_summary">Registers your device to Google services and creates a unique device identifier. microG strips identifying bits other than your Google account name from registration data.</string>
+    <string name="pref_checkin_enable_summary">Registers your device to Google services and creates a unique device identifier. UnifiedNlp strips identifying bits other than your Google account name from registration data.</string>
     <string name="pref_device_registration_android_id">Android ID</string>
 
     <string name="checkin_not_registered">Not registered</string>
@@ -141,7 +141,7 @@ This can take a couple of minutes."</string>
     <string name="pref_gcm_confirm_new_apps_summary">Ask before registering a new app to receive push notifications</string>
     <string name="pref_gcm_ping_interval">Ping interval: <xliff:g example="10 minutes">%1$s</xliff:g></string>
 
-    <string name="pref_about_title">About microG Services Core</string>
+    <string name="pref_about_title">About UnifiedNlp Services Core</string>
     <string name="pref_about_summary">Version information and used libraries</string>
 
     <string name="gcm_app_error_unregistering">Error unregistering</string>
@@ -170,7 +170,7 @@ This can take a couple of minutes."</string>
     <string name="prefcat_push_apps_unregistered_title">Unregistered apps</string>
     <string name="prefcat_push_networks_title">Networks to use for push notifications</string>
 
-    <string name="snet_intro">Google SafetyNet is a device certification system, ensuring that the device is properly secured and compatible with Android CTS. Some applications use SafetyNet for security reasons or as a prerequisite for tamper-protection.\n\nmicroG GmsCore contains a free implementation of SafetyNet, but the official server requires SafetyNet requests to be signed using the proprietary DroidGuard system.</string>
+    <string name="snet_intro">Google SafetyNet is a device certification system, ensuring that the device is properly secured and compatible with Android CTS. Some applications use SafetyNet for security reasons or as a prerequisite for tamper-protection.\n\nUnifiedNlp GmsCore contains a free implementation of SafetyNet, but the official server requires SafetyNet requests to be signed using the proprietary DroidGuard system.</string>
     <string name="snet_enable_switch">Allow device attestation</string>
 
     <string name="pref_safetynet_test_title">Test SafetyNet attestation</string>

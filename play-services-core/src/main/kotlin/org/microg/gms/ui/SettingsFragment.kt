@@ -10,7 +10,7 @@ import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
-import com.google.android.gms.R
+import org.microg.nlp.app.R
 import org.microg.nlp.client.GeocodeClient
 import org.microg.nlp.client.LocationClient
 import org.microg.nlp.client.UnifiedLocationClient

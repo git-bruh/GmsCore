@@ -26,7 +26,7 @@
     <string name="prefcat_setup">Налаштування</string>
 
     <string name="self_check_title">Само-тестування</string>
-    <string name="self_check_desc">Перевірка, чи належним чином система використовує microG.</string>
+    <string name="self_check_desc">Перевірка, чи належним чином система використовує UnifiedNlp.</string>
 
     <string name="self_check_cat_permissions">Доступ надано</string>
     <string name="self_check_name_permission">Доступ до %1$s:</string>

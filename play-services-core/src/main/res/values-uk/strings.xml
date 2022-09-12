@@ -15,8 +15,8 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services Core</string>
-    <string name="gms_settings_name">Налаштування microG</string>
+    <string name="gms_app_name">UnifiedNlp Services Core</string>
+    <string name="gms_settings_name">Налаштування UnifiedNlp</string>
 
     <string name="just_a_sec">Зачекайте трохи...</string>
     <string name="google_account_label">Google</string>
@@ -71,7 +71,7 @@
     <string name="place_picker_nearby_places">Найближчі місця</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">microG Services Core: Відсутній дозвіл на <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">UnifiedNlp Services Core: Відсутній дозвіл на <xliff:g example="have full network acccess">%1$s</xliff:g></string>
 
     <string name="network_type_mobile">Мобільні мережі</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -85,7 +85,7 @@
     <string name="self_check_cat_system">Система</string>
 
     <string name="self_check_name_fake_sig_perm">Підтримка системою підміни підпису:</string>
-    <string name="self_check_resolution_fake_sig_perm">Поточне програмне забезпечення пристрою не підтримує підміну підпису. Ви можете використовувати Xposed або інші методи підтримки підміни підпису. Будь ласка, перевірте документацію, де вказано яка система підтримує підміну підпису і як використовувати microG, якщо немає такої підтримки.</string>
+    <string name="self_check_resolution_fake_sig_perm">Поточне програмне забезпечення пристрою не підтримує підміну підпису. Ви можете використовувати Xposed або інші методи підтримки підміни підпису. Будь ласка, перевірте документацію, де вказано яка система підтримує підміну підпису і як використовувати UnifiedNlp, якщо немає такої підтримки.</string>
     <string name="self_check_name_perm_granted">Надання системою дозволу на підміну підпису:</string>
     <string name="self_check_resolution_perm_granted">Ваше програмне забезпечення пристрою підтримує підміну підпису, але потребує додаткової дії для її активації. Будь ласка, перевірте документацію, де вказано як це зробити.</string>
     <string name="self_check_name_system_spoofs">Підміна підпису системою:</string>
@@ -113,7 +113,7 @@
     <string name="prefcat_test">Тест</string>
 
     <string name="cond_gcm_bat_title">Увімкнута оптимізація енергоспоживання</string>
-    <string name="cond_gcm_bat_summary">Ви увімкнули Cloud Messaging але лиши оптимізацію енергоспоживання активним для microG Services Core. Аби отримувати push-сповіщення необхідно вимкнути оптимізацію енергоспоживання.</string>
+    <string name="cond_gcm_bat_summary">Ви увімкнули Cloud Messaging але лиши оптимізацію енергоспоживання активним для UnifiedNlp Services Core. Аби отримувати push-сповіщення необхідно вимкнути оптимізацію енергоспоживання.</string>
     <string name="cond_gcm_bat_action">Ігнорувати оптимізацію</string>
     <string name="cond_perm_title">Відсутній дозвіл</string>
 
@@ -124,7 +124,7 @@
     <string name="pref_auth_trust_google_title">Довіряти дозволам Google в додатках</string>
     <string name="pref_auth_trust_google_summary">Коли вимкнено, у користувача запитується дозвіл на авторизацію Google. Деякі додатки не можуть використовувати обліковий запис Google, без даної можливості.</string>
 
-    <string name="pref_checkin_enable_summary">Реєструє Ваш пристрій в сервісах Google та створює унікальний ідентифікатор. MicroG видаляє всі біти ідентифікації, окрім імені Вашого облікового запису Google.</string>
+    <string name="pref_checkin_enable_summary">Реєструє Ваш пристрій в сервісах Google та створює унікальний ідентифікатор. UnifiedNlp видаляє всі біти ідентифікації, окрім імені Вашого облікового запису Google.</string>
 
     <string name="pref_more_settings">Додатково</string>
 
@@ -137,7 +137,7 @@
     <string name="pref_gcm_confirm_new_apps_summary">Запитувати перед реєстрацією нового додатку для отримання push-повідомлень</string>
     <string name="pref_gcm_ping_interval">Інтервал опитування: <xliff:g example="10 minutes">%1$s</xliff:g></string>
 
-    <string name="pref_about_title">Про microG Services Core</string>
+    <string name="pref_about_title">Про UnifiedNlp Services Core</string>
     <string name="pref_about_summary">Версія та використані бібліотеки</string>
 
     <string name="gcm_app_error_unregistering">Помилка відв\'язування</string>
@@ -153,7 +153,7 @@
     <string name="gcm_unregister_after_deny_message">Ви заборонили додатку push-повідомлення, який вже був прив\'язаний.\nВи бажаєте відв\'язати його зараз, аби більше не отримувати від нього push-повідомлень?</string>
     <string name="gcm_messages_counter">Повідомлень: <xliff:g example="123">%1$d</xliff:g> (<xliff:g example="12345">%2$d</xliff:g> байт)</string>
 
-    <string name="snet_intro">Google SafetyNet це система сертифікації пристрою, яка гарантує, що пристрій коректно захищено та сумісне із Android CTS. Деякі додатки використовують SafetyNet для безпеки або в якості попередньої системи захисту від злому.\n\nmicroG GmsCore містить вільну реалізацію SafetyNet, але офіційний сервер вимагає, аби запити були підписані за допомогою закритої програмної системи DroidGuard.</string>
+    <string name="snet_intro">Google SafetyNet це система сертифікації пристрою, яка гарантує, що пристрій коректно захищено та сумісне із Android CTS. Деякі додатки використовують SafetyNet для безпеки або в якості попередньої системи захисту від злому.\n\nUnifiedNlp GmsCore містить вільну реалізацію SafetyNet, але офіційний сервер вимагає, аби запити були підписані за допомогою закритої програмної системи DroidGuard.</string>
 
     <string name="pref_safetynet_test_title">Протестувати SafetyNet перевірку</string>
     <string name="pref_droidguard_operation_mode">Режим роботи</string>

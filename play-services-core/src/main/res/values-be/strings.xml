@@ -15,9 +15,9 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services Core</string>
-    <string name="gms_settings_name">Налады microG</string>
-    <string name="gms_settings_summary">Канфігураванне сэрвісаў microG</string>
+    <string name="gms_app_name">UnifiedNlp Services Core</string>
+    <string name="gms_settings_name">Налады UnifiedNlp</string>
+    <string name="gms_settings_summary">Канфігураванне сэрвісаў UnifiedNlp</string>
 
     <string name="just_a_sec">Калі ласка, пачакайце...</string>
     <string name="google_account_label">Google</string>
@@ -52,8 +52,8 @@
     <string name="perm_c2dm_send_label">адпраўляць C2DM паведамленні іншым прыкладанням</string>
     <string name="perm_gtalk_svc_label">абменьвацца паведамленнямі і атрымліваць апавяшчэнні аб сінхранізацыі ад сервераў Google</string>
     <string name="perm_extended_access_label">Пашыраны доступ да сэрвісаў Google</string>
-    <string name="perm_provision_label">падрыхтоўка сэрвісаў microG</string>
-    <string name="perm_provision_description">Дазволіць прыкладанню настраіваць сэрвісы microG без ўмяшання карыстальніка</string>
+    <string name="perm_provision_label">падрыхтоўка сэрвісаў UnifiedNlp</string>
+    <string name="perm_provision_description">Дазволіць прыкладанню настраіваць сэрвісы UnifiedNlp без ўмяшання карыстальніка</string>
 
     <string name="service_name_checkin">Рэгістрацыя прылады ў Google</string>
     <string name="service_name_mcs">Воблачны абмен паведамленнямі</string>
@@ -76,7 +76,7 @@
     <string name="place_picker_nearby_places">Бліжэйшыя месцы</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
 
-    <string name="lacking_permission_toast">microG Services Core: Адсутнічае дазвол для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">UnifiedNlp Services Core: Адсутнічае дазвол для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
 
     <string name="network_type_mobile">Мабільная сетка</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -90,7 +90,7 @@
     <string name="self_check_cat_system">Сістэма</string>
 
     <string name="self_check_name_fake_sig_perm">Сістэма падтрымлівае падмену подпісу:</string>
-    <string name="self_check_resolution_fake_sig_perm">Ваша прашыўка не мае натыўнай падтрымкі падмены подпісу. Вы можаце выкарыстаць Xposed або іншыя метады, каб актываваць падмену подпісу. Калі ласка, азнаёмцеся з дакументацыяй, якая прашыўка падтрымлівае падмену подпісу і як выкарыстоўваць microG ў прашыўцы, якая не падтрымлівае.</string>
+    <string name="self_check_resolution_fake_sig_perm">Ваша прашыўка не мае натыўнай падтрымкі падмены подпісу. Вы можаце выкарыстаць Xposed або іншыя метады, каб актываваць падмену подпісу. Калі ласка, азнаёмцеся з дакументацыяй, якая прашыўка падтрымлівае падмену подпісу і як выкарыстоўваць UnifiedNlp ў прашыўцы, якая не падтрымлівае.</string>
     <string name="self_check_name_perm_granted">Сістэма дазваляе падмену подпісу:</string>
     <string name="self_check_resolution_perm_granted">Ваша прашыўка падтрымлівае падмену подпісу, але патрабуе дадатковых дзеянняў для яе актывацыі. Калі ласка, азнаёмцеся з дакументацыяй, дзе апісана што трэба зрабіць.</string>
     <string name="self_check_name_system_spoofs">Сістэма падмяняе подпісы:</string>
@@ -118,7 +118,7 @@
     <string name="prefcat_test">Тэст</string>
 
     <string name="cond_gcm_bat_title">Актыўная аптымізацыя энергаспажывання</string>
-    <string name="cond_gcm_bat_summary">Вы ўключылі воблачны абмен паведамленнямі, але ў вас актыўная аптымізацыя энергаспажывання для microG Services Core. Каб атрымліваць push-паведамленні вам неабходна дазволіць прыкладанню працаваць у фонавым рэжыме.</string>
+    <string name="cond_gcm_bat_summary">Вы ўключылі воблачны абмен паведамленнямі, але ў вас актыўная аптымізацыя энергаспажывання для UnifiedNlp Services Core. Каб атрымліваць push-паведамленні вам неабходна дазволіць прыкладанню працаваць у фонавым рэжыме.</string>
     <string name="cond_gcm_bat_action">Дазволіць работу ў фоне</string>
     <string name="cond_perm_title">Адсутнічаюць дазволы</string>
 
@@ -131,7 +131,7 @@
     <string name="pref_auth_visible_title">Дазволіць прыкладанням знаходзіць акаўнты</string>
     <string name="pref_auth_visible_summary">Калі ўключана, усе прыкладанні на гэтай прыладзе змогуць бачыць адрасы электроннай пошты вашых уліковых запісаў Google без папярэдняга дазволу.</string>
 
-    <string name="pref_checkin_enable_summary">Рэгіструе вашу прыладу ў сэрвісах Google і стварае унікальны ідэнтыфікатар. MicroG выдаляе ўсе ідэнтыфікуючыя біты, акрамя імя вашага акаўнта Google.</string>
+    <string name="pref_checkin_enable_summary">Рэгіструе вашу прыладу ў сэрвісах Google і стварае унікальны ідэнтыфікатар. UnifiedNlp выдаляе ўсе ідэнтыфікуючыя біты, акрамя імя вашага акаўнта Google.</string>
     <string name="pref_device_registration_android_id">Android ID</string>
 
     <string name="checkin_not_registered">Не зарэгістравана</string>
@@ -152,7 +152,7 @@
     <string name="pref_gcm_confirm_new_apps_summary">Пытаць дазвол перад прывязкай новых прыкладанняў для атрымання push-паведамленняў</string>
     <string name="pref_gcm_ping_interval">Інтэрвал праверкі: <xliff:g example="10 минут">%1$s</xliff:g></string>
 	
-    <string name="pref_about_title">Аб сэрвісах microG Services Core</string>
+    <string name="pref_about_title">Аб сэрвісах UnifiedNlp Services Core</string>
     <string name="pref_about_summary">Інфармацыя аб версіі і выкарыстоўваныя бібліятэкі</string>
 
     <string name="gcm_app_error_unregistering">Не атрымалася адвязаць</string>
@@ -180,7 +180,7 @@
     <string name="prefcat_push_apps_unregistered_title">Незарэгістраваныя прыкладанні</string>
     <string name="prefcat_push_networks_title">Сеткі для прыёму push-паведамленняў</string>
 
-    <string name="snet_intro">Google SafetyNet гэта сістэма сертыфікацыі прылады, якая гарантуе, што прылада карэктна абаронена і сумяшчальна з Android CTS. Пэўныя праграмы выкарыстоўваюць SafetyNet з меркаванняў бяспекі або ў якасці папярэдняй сістэмы абароны ад узлому.\n\nmicroG GmsCore змяшчае свабодную рэалізацыю SafetyNet, але афіцыйны сервер патрабуе, каб запыты былі падпісаны з дапамогай прапрыетарнай сістэмы DroidGuard.</string>
+    <string name="snet_intro">Google SafetyNet гэта сістэма сертыфікацыі прылады, якая гарантуе, што прылада карэктна абаронена і сумяшчальна з Android CTS. Пэўныя праграмы выкарыстоўваюць SafetyNet з меркаванняў бяспекі або ў якасці папярэдняй сістэмы абароны ад узлому.\n\nUnifiedNlp GmsCore змяшчае свабодную рэалізацыю SafetyNet, але афіцыйны сервер патрабуе, каб запыты былі падпісаны з дапамогай прапрыетарнай сістэмы DroidGuard.</string>
     <string name="snet_enable_switch">Дазволіць праверку статусу прылады</string>
 
     <string name="pref_safetynet_test_title">Тэст верыфікацыі SafetyNet</string>

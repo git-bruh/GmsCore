@@ -23,7 +23,7 @@
             android:title="@string/self_check_title">
             <intent
                 android:targetClass="org.microg.gms.ui.SelfCheckFragment$AsActivity"
-                android:targetPackage="com.google.android.gms" />
+                android:targetPackage="org.microg.nlp.app" />
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/preference_category_no_label">

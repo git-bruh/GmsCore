@@ -26,7 +26,7 @@
     <string name="prefcat_setup">Ўсталяваць</string>
 
     <string name="self_check_title">Праверка працаздольнасці</string>
-    <string name="self_check_desc">Праверце, ці правільна настроена сістэма для выкарыстання microG.</string>
+    <string name="self_check_desc">Праверце, ці правільна настроена сістэма для выкарыстання UnifiedNlp.</string>
 
     <string name="self_check_cat_permissions">Правы доступу прадастаўленыя</string>
     <string name="self_check_name_permission">%1$s:</string>
