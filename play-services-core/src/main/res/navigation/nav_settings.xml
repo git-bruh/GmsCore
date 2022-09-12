@@ -28,9 +28,6 @@
             android:id="@+id/openMoreGoogleSettings"
             app:destination="@id/googleMoreFragment" />
         <action
-            android:id="@+id/openExposureNotificationSettings"
-            app:destination="@id/nav_nearby" />
-        <action
             android:id="@+id/openAbout"
             app:destination="@id/aboutFragment" />
     </fragment>
@@ -100,7 +97,6 @@
         android:label="@string/gms_settings_name" />
 
     <include app:graph="@navigation/nav_unlp" />
-    <include app:graph="@navigation/nav_nearby" />
 
     <fragment
         android:id="@+id/aboutFragment"

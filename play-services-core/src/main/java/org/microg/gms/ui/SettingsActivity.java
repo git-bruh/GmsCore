@@ -24,7 +24,6 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        NearbyPreferencesIntegration.Companion.preProcessSettingsIntent(intent);
 
         setContentView(R.layout.settings_root_activity);
 

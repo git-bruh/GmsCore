@@ -30,7 +30,6 @@ import androidx.core.content.ContextCompat;
 
 import com.google.android.gms.R;
 
-import org.microg.gms.gcm.GcmPrefs;
 import org.microg.tools.ui.Condition;
 
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
@@ -50,7 +49,6 @@ public class Conditions {
                 @Override
                 public boolean isActive(Context context) {
                     if (SDK_INT < 23) return false;
-                    if (!GcmPrefs.get(context).isEnabled()) return false;
                     PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
                     return !pm.isIgnoringBatteryOptimizations(context.getPackageName());
                 }
